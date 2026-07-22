@@ -109,7 +109,12 @@
       <a href="#">Book a Free Consultation today!</a>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-        src="images/dumbells.jpg"
+    <picture>
+      <source srcset="images/dumbells.jpg" media="(min-width: 1280px)">
+      <source srcset="images/dumbells-768w.jpg" media="(min-width: 768px)">
+      <source srcset="images/dumbells-320w.jpg" media="(max-width: 320px)">
+      <img src="images/dumbells.jpg" alt="Black & White image of the dumbell rack inside Limitless Fitness">
+    </picture>
 
     </section>
     <section>
